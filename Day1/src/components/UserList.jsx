@@ -22,7 +22,7 @@ const UserList = () => {
     <div>
       {users.map(({ ide, nam, age }) => (
         <div key={Math.random()}>
-          <h1>
+          <h2>
             Users{" "}
             {ide == "1"
               ? ide + "st"
@@ -31,7 +31,7 @@ const UserList = () => {
               : ide == "3"
               ? ide + "rd"
               : ide + "th"}
-          </h1>
+          </h2>
           <p>Id: {ide}</p>
           <p>Name: {nam}</p>
           <p>Age: {age}</p>

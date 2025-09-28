@@ -1,6 +1,7 @@
 import Greeting from "./components/Greeting";
 import JSXRules from "./components/JSXRules";
 import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
 import UserList from "./components/UserList";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       */}
       <h1>User List Component</h1>
       <UserList />
+      <ProductList/> 
     </div>
   );
 };
