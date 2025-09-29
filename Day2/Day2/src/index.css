@@ -4,14 +4,14 @@
     box-sizing : border-box;
 }
 body{
-    background-color: rgb(5, 17, 17);
+    background-color: rgb(146, 198, 198);
     display:flex;
     justify-content : center;
     align-items: center;
     height: 100vh;
 }
 h1{
-    color : white;
+    color : rgb(11, 0, 0);
     font-size : 3rem;
     font-family: sans-serif;
     border : solid 2px white;
