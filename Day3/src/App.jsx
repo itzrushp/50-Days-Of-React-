@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Counter from "./components/Task1OfUseStateHook/Counter";
+import TodoList from "./components/Task1OfUseStateHook/TodoList";
+import Profile from "./components/Task1OfUseStateHook/Profile";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      {/* <Counter/>
+      <TodoList/> */}
+      <Profile/>
+    </div>
+  );
+};
 
-export default App
+export default App;
