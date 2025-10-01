@@ -6,9 +6,11 @@ import Profile from "./components/Task1OfUseStateHook/Profile";
 const App = () => {
   return (
     <div>
-      {/* <Counter/>
-      <TodoList/> */}
+      {/* 
+      <Counter/>
+      <TodoList/>
       <Profile/>
+       */}
     </div>
   );
 };
